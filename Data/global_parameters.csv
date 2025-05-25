@@ -1,0 +1,22 @@
+Simulation_parameters,Value,Description
+Session,Basic,"Session: 'Basic','Uncertainty','Storage','Grid' "
+Day,1,Select the day you want to study. The previous day will be used as a starting solution. Day 1 will be solved with cyclic boundary conditions.
+UCM,Deterministic,"Unit commitment model: 'deterministic' or 'stochastic' or 'dispatch'. All results will be displayed for the selected day, under the forecast scenario for the SUCM."
+Reserves rule,,Select the reserve rule you want to study: Flat or Probabilistic
+Reserve level,0,"Select the amount of reserves you want to study. For flat: MW, for probabilistic: fraction of errors that you want to cover"
+Share Wind,0.15,"Share of wind power in the electricity generation mix (energy basis, week)"
+Share Solar,0.15,"Share of solar power in the electricity generation mix (energy basis, week)"
+Time step,1,Time step of the simulation - do not change.
+VOLL,1000000000000000,Value of lost load
+VOC,0,Value of curtailment (e.g. Equal to the value of the green certificates)
+CO2_price,0,Carbon price (e.g. Equal to the EU ETS price)
+CO2_bound, 10000000000000000000, CO2 maximum emissions
+,,
+Solver parameters,,
+threads,4,Number of threads
+parrallelmode,-1,"-1: opportunistic, 1: deterministic"
+tilim,28800,Time limit
+egap,0.01,Optimalitity gap
+itlim,10000000,Iteration limit
+mipemhasis,0,"0: balanced, 1: feasibility, 2: optimality"
+rinsheur,100,Frequency of heuristic

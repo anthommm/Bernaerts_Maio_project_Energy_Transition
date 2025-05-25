@@ -1,0 +1,6 @@
+Technologies,Campus_elec,Campus_Cold
+Grid,1000000,0
+Wind,1000000,0
+PV,1000000,0
+GT,1000000,0
+AirChillers,0,1000000

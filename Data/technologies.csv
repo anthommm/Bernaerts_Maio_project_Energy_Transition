@@ -1,0 +1,5 @@
+Technologies,Fuel,Legacy capacity,Maximum capacity,Rated efficiency,Fuel costs,Fuel CO2 content,Investment cost,Lifetime,Discount rate,O&M fixed,O&M var,Availability,Must-run fraction,Ramp-up rate,Ramp-down rate
+Grid,Fossil fuels,0,300000,1,95,0.472,10,25,0.1,0,0,1,0,100,100
+GT,Gas,0,300000,0.4,40,0.205,700000,30,0.1,21000,2,1,0,1,1
+Wind,wind,0,30000,1,0,0,1900000,25,0.1,44000,2,1,0,1,1
+PV,solar,0,30000,1,0,0,870000,25,0.1,10600,2,1,0,1,1

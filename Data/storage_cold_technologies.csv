@@ -1,0 +1,3 @@
+Storages,Discharge efficiency,Charge efficiency,Maximum state of charge,Minimum state of charge,Investment cost,Maximum capacity,Storage duration,Lifetime,Discount rate,O&M
+Ice,0.95,0.95,1,0.2,60000, 500, 0.333, 50, 0.06,15
+
